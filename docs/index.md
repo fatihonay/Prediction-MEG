@@ -136,16 +136,3 @@ Contributing
 Prediction-MEG is an open-source project.
 Contributions, suggestions, and discussions are welcome.
 Contribution Guidelines →
-
-Important fixes I made:
-
-1. ✅ Moved `toctree` into a proper MyST block:
-```markdown
-```{toctree}
-...
-
-2. ✅ Completed your unfinished third card:
-```markdown
-:::{grid-item-card} 📊 Open Science
-...
-:::
