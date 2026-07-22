@@ -23,8 +23,10 @@ extensions = [
     "sphinx.ext.githubpages",   # emit a .nojekyll file for GitHub Pages
     "sphinx_copybutton",        # a "copy" button on code blocks
     "sphinx_design",            # grids, cards, tabs, dropdowns
+    "myst_nb"
 ]
 
+nb_execution_mode = "off"  # Options: "off", "auto", "force", "inline"
 # Accept both .rst and .md source files.
 source_suffix = {
     ".rst": "restructuredtext",
