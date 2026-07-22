@@ -28,9 +28,11 @@ extensions = [
 
 nb_execution_mode = "off"  # Options: "off", "auto", "force", "inline"
 # Accept both .rst and .md source files.
+# Map file extensions to parsers
 source_suffix = {
     ".rst": "restructuredtext",
-    ".md": "markdown",
+    ".md": "myst-nb",
+    ".ipynb": "myst-nb",
 }
 
 # MyST (Markdown) extensions — enables nicer syntax in .md files.
