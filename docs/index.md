@@ -35,6 +35,7 @@ The project integrates:
 
 
 Highlights
+
 ::::{grid} 3
 :::{grid-item-card} 🚀 Reproducible
 Built on MNE-Python with reproducible workflows.
