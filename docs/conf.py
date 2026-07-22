@@ -26,11 +26,26 @@ html_title = "Prediction-MEG"
 
 html_static_path = ["_static"]
 
+
+
+```python
 html_theme_options = {
+
     "github_url": "https://github.com/fatihonay/Prediction-MEG",
+
     "navigation_with_keys": True,
-    "show_nav_level": 2,
+
+    "show_nav_level": 3,
+
+    "collapse_navigation": False,
+
+    "use_edit_page_button": True,
+
     "secondary_sidebar_items": ["page-toc"],
+
+    "logo": {
+        "text": "Prediction-MEG"
+    }
 }
 
 html_logo = "_static/logo.png"
