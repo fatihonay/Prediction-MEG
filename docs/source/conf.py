@@ -14,7 +14,7 @@ version = "0.1"
 # -- General configuration ---------------------------------------------------
 
 extensions = [
-    "myst_parser",              # write pages in Markdown as well as reStructuredText
+    #"myst_parser",              # write pages in Markdown as well as reStructuredText
     "sphinx.ext.autodoc",       # pull docstrings from your Python code
     "sphinx.ext.napoleon",      # understand NumPy / Google style docstrings
     "sphinx.ext.viewcode",      # add links to highlighted source code
