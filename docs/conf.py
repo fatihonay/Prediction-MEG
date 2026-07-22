@@ -43,20 +43,3 @@ html_static_path = ["_static"]
 
 
 html_title = "Prediction-MEG"
-    "navigation_with_keys": True,
-
-    "show_nav_level": 3,
-
-    "collapse_navigation": False,
-
-    "use_edit_page_button": True,
-
-    "secondary_sidebar_items": ["page-toc"],
-
-    "logo": {
-        "text": "Prediction-MEG"
-    }
-}
-
-html_logo = "_static/logo.png"
-html_favicon = "_static/favicon.ico"
