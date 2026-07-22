@@ -1,3 +1,7 @@
+import os
+import sys
+
+
 project = "Prediction-MEG"
 copyright = "2026, Fatih Onay"
 author = "Fatih Onay"
@@ -27,8 +31,6 @@ html_title = "Prediction-MEG"
 html_static_path = ["_static"]
 
 
-
-```python
 html_theme_options = {
 
     "github_url": "https://github.com/fatihonay/Prediction-MEG",
