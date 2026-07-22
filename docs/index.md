@@ -20,6 +20,7 @@ roadmap
 
 ---
 Why Prediction-MEG?
+
 The brain continuously generates predictions about incoming sensory information.
 Prediction-MEG provides reproducible computational tools for studying these
 predictive mechanisms using MEG data.
@@ -56,6 +57,7 @@ Reproducible research practices
 
 
 Scientific Motivation
+
 The brain does not passively process sensory information.
 Instead, it continuously combines:
 Previous knowledge
