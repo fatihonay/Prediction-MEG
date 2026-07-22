@@ -6,7 +6,8 @@ project = "Prediction-MEG"
 copyright = "2026, Fatih Onay"
 author = "Fatih Onay"
 
-release = "0.1"
+release = "0.1.0"
+
 
 extensions = [
     "myst_parser",
@@ -19,22 +20,29 @@ extensions = [
     "sphinx_togglebutton",
 ]
 
+
 autosummary_generate = True
 
+
 templates_path = ["_templates"]
+
 exclude_patterns = []
 
-html_theme = "pydata_sphinx_theme"
 
-html_title = "Prediction-MEG"
+html_theme = "pydata-sphinx-theme"
+
+
+html_theme_options = {
+    "github_url": "https://github.com/fatihonay/Prediction-MEG",
+    "navigation_with_keys": True,
+    "show_nav_level": 2,
+}
+
 
 html_static_path = ["_static"]
 
 
-html_theme_options = {
-
-    "github_url": "https://github.com/fatihonay/Prediction-MEG",
-
+html_title = "Prediction-MEG"
     "navigation_with_keys": True,
 
     "show_nav_level": 3,
