@@ -100,6 +100,7 @@ H
 
 
 Documentation
+
 ::::{grid} 4
 :::{grid-item-card} 🚀 Quick Start
 Start your first MEG analysis.
@@ -118,6 +119,7 @@ Developer reference.
 Reference →
 :::
 ::::
+
 Project Information
 Component	Status
 Language	Python
@@ -126,6 +128,7 @@ Documentation	Sphinx
 License	MIT
 Version	0.1.0
 Status	Active Development
+
 Citation
 If you use Prediction-MEG in your research, please cite:
 @software{prediction_meg,
