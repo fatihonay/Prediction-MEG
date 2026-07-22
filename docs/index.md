@@ -2,6 +2,20 @@
 
 > **An open-source framework for investigating predictive neural representations using Magnetoencephalography (MEG).**
 
+:maxdepth: 2
+:hidden:
+
+about
+installation
+quickstart
+pipeline
+tutorials
+theory
+api
+contributing
+citation
+roadmap
+
 ---
 
 ## Why Prediction-MEG?
@@ -54,3 +68,6 @@ A[Raw MEG]
 -->E[Decoding]
 -->F[Statistics]
 -->G[Visualization]
+
+
+
